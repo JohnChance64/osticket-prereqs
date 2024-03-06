@@ -22,15 +22,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
+- Virutal Machine Running Windows
+- osTicket Installation Files
 - Item 3
 - Item 4
 - Item 5
 
 <h2>Installation Steps</h2>
-
+<h2>Step 1: Connect to your Virtual Machine with Remote Desktop</h2>
+After creating a Virtual Machine in Azure, connect to it by entering the IP Adress into Remote Desktop and signing in.
 <p>
+<h2>Step 2: Enable IIS in Control Panel</h2>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
