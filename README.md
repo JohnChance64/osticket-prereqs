@@ -22,11 +22,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
+- Microsoft Azure account
 - Virutal Machine Running Windows
 - osTicket Installation Files
-- Item 3
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 <h2>Step 1: Connect to your Virtual Machine with Remote Desktop</h2>
