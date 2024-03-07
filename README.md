@@ -35,7 +35,7 @@ After creating a Virtual Machine in Azure, connect to it by entering the IP Adre
  - Open the Control Panel app
  - Click on Programs > Turn Windows Features on or off
  - Find the Internet Information Services box and check it
- - Expand Internet Information Services > Expand World Wide Web Services > Expand Application Development > check the CGI Box
+ - Expand Internet Information Services>Expand World Wide Web Services>Expand Application Development>check the CGI Box
  - Hit OK and wait for everything to install
 <img src="https://i.imgur.com/9xFOlkF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -47,7 +47,18 @@ After creating a Virtual Machine in Azure, connect to it by entering the IP Adre
   <img src="https://i.imgur.com/ZragyLi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 - Then extract the PHP Zip into the created PHP folder
   <img src="https://i.imgur.com/Sk5c8HB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-- Next, install the VC
+- Next, download and install the VC_redist.x86.exe file and then MySQL
+- After installing MySQL open the configuration wizard, Click Standard Configuration>Install as Windows Service>Create a password>Execute>Finish
+- Next type IIS into the Windows search bar and open IIS as administrator
+- Once Opened click on PHP Manager and then Register new PHP version
+- Go to the created PHP folder and click php-cgi
+   <img src="https://i.imgur.com/bPEQMgx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Next go back to the IIS homepage and under Manage Server click on Restart
+- Now download and extract the osTicket zip folder
+- Grab the upload folder and put it in the wwwroot folder on the C drive
+  <img src="https://i.imgur.com/pH5Zc8w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Rename upload folder to osTicket
+- Go back to IIS and restart the server again
 
 <p>
 </p>
