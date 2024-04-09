@@ -59,22 +59,14 @@ After creating a Virtual Machine in Azure, connect to it by entering the IP Adre
   <img src="https://i.imgur.com/pH5Zc8w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 - Rename upload folder to osTicket
 - Go back to IIS and restart the server again
-
+- Next you will need to extract the osTicklet zip folder and drag the upload folder into wwwroot
+  <img src="https://i.imgur.com/baxqiAv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Now rename the upload folder to osTicket and reset the server in IIS
+- After that find osTicket in the Connections tab of IIS and then go to Manage folder and click Browse *:80(http)
+    <img src="https://i.imgur.com/tiST4o2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- If everything was installed correctly your screen should look like this
+  <img src="https://i.imgur.com/15DqbLe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Step 4: Setting Up </h2>
 <p>
-</p>
-<br />
-
-<p>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
