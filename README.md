@@ -67,6 +67,18 @@ After creating a Virtual Machine in Azure, connect to it by entering the IP Adre
 - If everything was installed correctly your screen should look like this
   <img src="https://i.imgur.com/15DqbLe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <h2>Step 4: Setting Up </h2>
+
+- First click continue and fill out all info on the first 2 sections
+- Next install HeidiSQL and then launch it
+- Click New and enter your password under root
+<img src="https://i.imgur.com/mZoMw3X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- Now right click and create new database. Name it osTicket and click OK
+- Go back to osTicket and finish entering your information into the Database Settings section and click install now
+- After its installed go to wwwroot>osTicket folder and delete the setup folder
+- Now go to localhost/osTicket/scp/login.php and login to your account
+- If your screen looks like this then conrgats you have succesfully installed osTicket!!!
+  <img src="https://i.imgur.com/ic1Hy5E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
 <br />
